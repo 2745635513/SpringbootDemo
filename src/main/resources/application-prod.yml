@@ -1,0 +1,8 @@
+#server:
+#  port: 8080
+#  servlet:
+#    context-path: /girl
+girl:
+  cupSize: A
+  age: 18
+#content: "cupSize: ${cupSize}, age: ${age}}" 没有起到效果，不知道什么原因
