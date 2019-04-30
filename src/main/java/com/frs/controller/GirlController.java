@@ -46,4 +46,9 @@ public class GirlController {
     public void girlTwo() {
         girlService.insertTwo();
     }
+
+    @GetMapping(value = "/girls/getAge/{id}")
+    public void getAge(Integer id) throws Exception {
+        girlService.getAge(id);
+    }
 }
